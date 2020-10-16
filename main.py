@@ -20,6 +20,7 @@ track1=[
     'Build and Secure Networks in Google Cloud',
     'Deploy to Kubernetes in Google Cloud'
     ]
+
 track2 = [
     'Getting Started: Create and Manage Cloud Resources',
     'Perform Foundational Data, ML, and AI Tasks in Google Cloud',
@@ -80,47 +81,6 @@ def data_gathering(link):
     #print("data saved")
 
 
-    """
-    badge = soup.find_all('ql-badge').attrs
-    print(badge)
-    qname = badge['badge'].split(',')
-    qname2 =  qname[1].split(":")
-    print(qname2)
-    """
-
-    """
-    list = []
-    for row in quests[0].findAll('ql-badge'):
-        list.append(str(row))
-        print(list)
-        for element in list :
-            print(element)
-            point = element.split('=')
-            print(point[1])
-    """
-
-    """
-    for row in quests[0].findAll('div', attrs = {'class':'public-profile__badge'}):
-        divs = row.findChildren("div" , recursive=False)
-        if divs[1].text.strip() in track1:
-            track1completed.append(divs[1].text.strip())
-        if divs[1].text.strip() in track2:
-            track2completed.append(divs[1].text.strip())
-    tempdic['track1'] = track1completed
-    tempdic['track2'] = track2completed
-    tempdic['qcomplete_no'] = len(track1completed) + len(track2completed)
-    print(temdic['qcomplete_no'])
-    print(len(biglist)," ",tempdic['name']," ",tempdic['qcomplete_no']," ",tempdic['track1']," ",tempdic['track2'])
-    #if tempdic['qcomplete_no']!=0:
-    biglist.append(tempdic)
-    print("data saved")
-    #else:
-    #    print("data not saved")
-    t4 = time.time()
-    print(f"{t4-t3} seconds to download this profile.")
-    """
-
-
 
 
 def data_saving (biglist):
@@ -142,16 +102,7 @@ def data_saving (biglist):
 
 
 def start_thread(url2):
-    """
-    print("start thread")
-    id = 0
-    for link in url2:
-        print("start thread loop")
-        data_gathering(link)
-        id+=1
-    print("start thread loop ended")
-    data_saving(biglist)
-    """
+
     threads = 10
     #print("in start thread")
 
@@ -161,12 +112,9 @@ def start_thread(url2):
 
 
 
-
-
 def main(url):
     #print("in main")
     data_scraping (url)
-
 
 
 t0 = time.time()
