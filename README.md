@@ -6,3 +6,7 @@ The purpose of the leaderboard is to create a sense of healthy competition and l
 ## 30 Days of GCP
 
 - [Program Website](https://events.withgoogle.com/30daysofgooglecloud/)
+
+- [Program Syllabus](https://events.withgoogle.com/30daysofgooglecloud/program-syllabus/#content)
+
+- [Prize Rules](https://events.withgoogle.com/30daysofgooglecloud/prize-rules/#content)
