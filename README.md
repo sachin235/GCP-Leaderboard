@@ -5,6 +5,8 @@ The purpose of the leaderboard is to create a sense of healthy competition and l
 
 ###[30 Days of GCP DTU Leaderboard](https://30daysofgcp-dtu.netlify.app/)
 
+#
+
 ## 30 Days of GCP
 
 - [Program Website](https://events.withgoogle.com/30daysofgooglecloud/)
