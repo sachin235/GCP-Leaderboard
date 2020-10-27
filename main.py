@@ -67,6 +67,10 @@ def data_gathering(link):
             track2completed.append(allquest)
     tempdic['track1'] = track1completed
     tempdic['track2'] = track2completed
+
+    tempdic['lentrack1'] = len(track1completed)
+    tempdic['lentrack2'] = len(track2completed)
+
     tempdic['qcomplete_no'] = len(track1completed) + len(track2completed)
     #print(tempdic['qcomplete_no'])
 
@@ -114,7 +118,7 @@ def data_saving (biglist):
 
     print("Number of people completed track 1 : ",tk1)
     print("Number of people completed track 2 : ",tk2)
-    print("Number of people completed atleast 1 track : ",tkt)
+    print("Number of people completed atleast 1 quest : ",tkt)
     #print("number of people completed atleast one track ",num)
     #print(res)
 
