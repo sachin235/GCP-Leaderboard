@@ -98,6 +98,25 @@ def data_saving (biglist):
         json.dump(res,f)
     f.close()
 
+    tk1 = 0
+    tk2 = 0
+    tkt = 0
+    for tempdic in res:
+        x = int(tempdic['lentrack1'])
+        y = int(tempdic['lentrack2'])
+
+        if x == 6:
+            tk1+=1
+        if y == 6:
+            tk2+=1
+        if (x+y)!= 0:
+            tkt+=1
+
+    print("Number of people completed track 1 : ",tk1)
+    print("Number of people completed track 2 : ",tk2)
+    print("Number of people completed atleast 1 track : ",tkt)
+    #print("number of people completed atleast one track ",num)
+    #print(res)
 
 
 
