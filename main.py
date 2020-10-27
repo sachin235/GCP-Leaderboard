@@ -67,6 +67,10 @@ def data_gathering(link):
             track2completed.append(allquest)
     tempdic['track1'] = track1completed
     tempdic['track2'] = track2completed
+
+    tempdic['lentrack1'] = len(track1completed)
+    tempdic['lentrack2'] = len(track2completed)
+
     tempdic['qcomplete_no'] = len(track1completed) + len(track2completed)
     #print(tempdic['qcomplete_no'])
 
