@@ -118,7 +118,7 @@ def data_saving (biglist):
 
     print("Number of people completed track 1 : ",tk1)
     print("Number of people completed track 2 : ",tk2)
-    print("Number of people completed atleast 1 track : ",tkt)
+    print("Number of people completed atleast 1 quest : ",tkt)
     #print("number of people completed atleast one track ",num)
     #print(res)
 
