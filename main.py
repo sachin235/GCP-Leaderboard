@@ -105,6 +105,7 @@ def data_saving (biglist):
     tk1 = 0
     tk2 = 0
     tkt = 0
+    atleast1 = 0
     for tempdic in res:
         x = int(tempdic['lentrack1'])
         y = int(tempdic['lentrack2'])
@@ -115,11 +116,13 @@ def data_saving (biglist):
             tk2+=1
         if (x+y)!= 0:
             tkt+=1
+        if (x==6 or y==6):
+            atleast1 += 1
 
     print("Number of people completed track 1 : ",tk1)
     print("Number of people completed track 2 : ",tk2)
     print("Number of people completed atleast 1 quest : ",tkt)
-    #print("number of people completed atleast one track ",num)
+    print("number of people completed atleast one track ",atleast1)
     #print(res)
 
 
