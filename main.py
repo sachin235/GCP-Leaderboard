@@ -123,11 +123,11 @@ def data_saving (biglist):
         if (x==6 and y==6):
             both+=1
 
-    print("Number of people completed track 1 : ",tk1)
-    print("Number of people completed track 2 : ",tk2)
-    print("Number of people completed atleast 1 quest : ",tkt)
-    print("number of people completed atleast one track : ",atleast1)
-    print("number of people completed both the tracks : ",both)
+    print("Number of students completed track 1 : ",tk1)
+    print("Number of students completed track 2 : ",tk2)
+    print("Number of students completed atleast 1 quest : ",tkt)
+    print("number of students completed atleast one track : ",atleast1)
+    print("number of students completed both the tracks : ",both)
 
     #print(res)
 
