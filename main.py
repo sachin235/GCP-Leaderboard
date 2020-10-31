@@ -125,9 +125,9 @@ def data_saving (biglist):
 
     print("Number of students completed track 1 : ",tk1)
     print("Number of students completed track 2 : ",tk2)
-    print("Number of students completed atleast 1 quest : ",tkt)
-    print("number of students completed atleast one track : ",atleast1)
     print("number of students completed both the tracks : ",both)
+    print("number of students completed atleast one track : ",atleast1)
+    print("Number of students completed atleast 1 quest : ",tkt)
 
     #print(res)
 
